@@ -170,6 +170,14 @@ docker tag yifengyou/opencloudos:8.6-mini yifengyou/opencloudos:8.6-mini-2022082
 docker push yifengyou/opencloudos:mini-latest
 docker push yifengyou/opencloudos:8.6-mini
 docker push yifengyou/opencloudos:8.6-mini-20220825
+
+
+docker tag yifengyou/opencloudos:8.6-mini yifengyou/opencloudos-8.6:mini-latest
+docker tag yifengyou/opencloudos:8.6-mini yifengyou/opencloudos-8.6:8.6-mini
+docker tag yifengyou/opencloudos:8.6-mini yifengyou/opencloudos-8.6:8.6-mini-20220825
+docker push yifengyou/opencloudos-8.6:mini-latest
+docker push yifengyou/opencloudos-8.6:8.6-mini
+docker push yifengyou/opencloudos-8.6:8.6-mini-20220825
 ```
 
 * <https://hub.docker.com/r/yifengyou/opencloudos>
